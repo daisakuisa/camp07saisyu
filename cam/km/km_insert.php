@@ -8,9 +8,9 @@ if (!isset($_POST["km_pl"])  ||  $_POST["km_pl"] == "") {
 if (!isset($_POST["km_text"])  ||  $_POST["km_text"] == "") {
   exit("ParameError!text!");
 }
-if (!isset($_FILES["fname"]["name"])  ||  $_POST["fname"]["name"] == "") {
-  exit("ParameError!Files!");
-}
+// if (!isset($_FILES["fname"]["name"])  ||  $_POST["fname"]["name"] == "") {
+//   exit("ParameError!Files!");
+// }
 
 $fname   = $_FILES["fname"]["name"];
 $km_name = $_POST["km_name"];
